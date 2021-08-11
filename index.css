@@ -1,0 +1,138 @@
+/*CSS Reset*/
+*{
+	margin: 0;
+	/*margin property changes the amount of space between the border
+	and its surrounding elements.This is commonly used to create a space between elements*/
+	padding: 0;
+	/*PADDING PROPERTY CHANGES THE AMOUNT OF SPACE BETWEEN THE BORDER AND THE
+	CONTEXT OF AN ELEMENT. This is commonly used to position the contents of an element*/
+	box-sizing: border-box;
+}	/*boc sizing property defines the width and height of an element are calculated. This allows us to control the measurements
+of the elements better
+The value border box includes the padding and border properties of an
+element to the total height and width in its computation.
+This can be translated to "the total width/height od an element is (num)
+which includes the padding and border" as opposed to its initial context
+of "the total width/height of an element is (num) PLUS the padding and the border"
+*/
+
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+	padding: 0.8rem;
+/*	padding-top: 10px;
+	padding-left: 20px;
+	padding-bottom: 40px;*/
+	margin-bottom: 2rem;
+	border-bottom: 1px solid gray;
+	list-style-type: none;
+}
+nav .nav, nav .nav-logo{
+	display: inline;
+	/*inline changes the li elements in to in line elements. By default li elements
+	are block elements. This makes all the list items appear beside one another.*/
+	margin: 1rem;
+
+}
+#intro{
+	
+	text-align: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+}
+/*margin vs padding
+margin is best used when creating space between elements
+padding is best used when creating space between an element's border
+and its content*/
+
+.header{
+	text-align: center;
+}
+
+#intro h2, #intro p {
+	margin-bottom: 1rem;
+}
+
+#intro button {
+	padding: 1rem ;
+	
+}
+
+#succeed-info{
+	/*padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 2rem;
+	padding-bottom: 3rem;*/
+padding: 2rem 10% 3rem;	
+}
+
+#succeed-info h2{
+	margin-bottom: 1rem;
+}
+
+#succeed-info h3{
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+.card{
+	display: inline-block;
+	/*allow the card to appear beside each other*/
+
+	vertical-align: top;
+	/*aligns element with the tallest element in line. used with the "inline-block"
+	value*/
+	width: 30%;
+	/*width property uses the % value which divides the whole width of the container into
+	3 parts because we are horizontally aligning 3 components*/
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+}
+
+footer{
+	padding: 0.7rem; 
+
+	text-align: center;
+}
+
+footer span{
+	margin-left: 0.5rem;
+	margin-left: 0.5rem;
+}
+
+
+
+.pf{
+	color: white;
+	background-color:  #002540;
+	display: inline-block;
+	vertical-align; top;
+	width: 30%;
+}
+
+#pre-footer {
+	background-color:  #002540;
+	color: white;
+}
+
+.pf {
+	display: inline-block;
+	vertical-align; top;
+	width: 20%;
+	
+
+}
+
+.card{
+	display: inline;
+
+}
+#succeed-info h3{
+	text-align: left;
+}
+
